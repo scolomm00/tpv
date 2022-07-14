@@ -1,0 +1,286 @@
+/*====================
+========Header========
+======================*/
+
+.header-bar{
+    margin: 1rem 0.5rem 2.2rem 0.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    background-color: hsl(0, 0%, 87%);
+    border: 1px solid hsl(0, 0%, 87%);
+}
+
+.header-bar span{
+
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Abel', 'sans-serif';
+}
+
+/*====================
+========Main==========
+======================*/
+
+
+.container-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.title-container{
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0rem 0rem 0rem;
+    font-size: 1.5rem;
+    
+}
+
+.title-container span {
+    font-family: 'Abel', 'sans-serif';
+    font-size: 2rem;
+}
+
+.container-filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.container-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.label-container {
+
+    padding: 0.5rem;
+}
+.container-date span {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-family: 'Abel', 'sans-serif';
+}
+
+.input-container input {
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-family: 'Abel', 'sans-serif';
+}
+
+.input-container select {
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-family: 'Abel', 'sans-serif';
+}
+
+.filter-container {
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    border: 1px solid rgb(18, 105, 236);
+    background-color: rgb(18, 105, 236);
+    border-radius: 3px;
+    height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.filter-container span {
+    color: white;
+    font-family: 'Abel', 'sans-serif';
+}
+
+.ticket-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgb(218, 211, 211);
+    border-radius: 3px;
+    padding: 0 0.5rem 0.5rem 0;
+    margin-bottom: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.ticket-container-selected {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    border-top: 1px solid rgb(18, 105, 236);
+    background-color: rgb(18, 105, 236);
+    border-radius: 3px 3px 0px 0px;
+    color: white;
+}
+
+.ticket-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: black;
+}
+
+.ticket-container span {
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.ticket-container-selected span {
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 3px;
+}
+
+.span-container span {
+    font-family: 'Abel', 'sans-serif';
+}
+
+.span-container label {
+    font-family: 'Abel', 'sans-serif';
+    font-size: 1.1rem;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: rgb(218, 218, 218);
+    color: white;
+    text-align: center;
+    border-radius: 3px 3px 0px 0px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border: 1px solid grey;
+}
+
+.nav-bar svg {
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    margin-left: auto;
+    padding-right: 1rem;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 0px 0px 3px 3px;
+    border: 1px solid grey;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.data-container h4 {
+    padding: 1rem 0 1rem 1rem;
+    font-family: 'Abel', 'sans-serif';
+}
+
+.filter-label-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+    height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.date-input-container input{
+    width: 90%;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-family: 'Abel', 'sans-serif';
+}
+
+.data-container label {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.title-data-container {
+    padding: 1rem;
+}
+
+.title-data-container span {
+    font-family: 'Abel', 'sans-serif';    
+    font-size: 1.2rem;
+}
+
+.label-container label {
+    width: 100%;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.label-container {
+    padding: 0.1rem;
+}
+
+.label-container span {
+    width: 100%;
+    font-family: 'Abel', 'sans-serif';    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 0.5rem;
+    font-family: 'Abel', 'sans-serif';
+    font-weight: 600;
+}
+
+td {
+    border-bottom: 1px solid rgb(161, 161, 161);
+    padding: 0.5rem;
+    font-family: 'Abel', 'sans-serif';
+    text-align: center;
+}
+
+img {
+    width: 5rem;
+    height: 5rem;
+}

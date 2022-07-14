@@ -1,0 +1,170 @@
+.header-bar{
+    margin: 1rem 0.5rem 2.2rem 0.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    background-color: hsl(0, 0%, 87%);
+    border: 1px solid hsl(0, 0%, 87%);
+}
+
+
+.header-bar span{
+
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Abel', 'sans-serif';
+}
+/*====================
+========Main==========
+======================*/
+
+
+.container-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.title-container{
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0rem 1rem 0rem;
+    font-size: 1.5rem;
+    
+}
+
+.title-container span {
+    font-family: 'Abel', 'sans-serif';
+    font-size: 2rem;
+}
+
+.scroll-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid hsl(0, 0%, 87%);
+}
+
+.scroll-container span {
+    text-align: center;
+    font-family: 'Abel', 'sans-serif';
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.price-container {
+    width: 100%;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0.5rem 1rem 0;
+
+}
+
+.base-price-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 87%);
+    background-color: grey;
+    padding: 0.5rem;
+}
+
+.base-price-container span {
+    text-align: center;
+    font-family: 'Abel', 'sans-serif';
+    color: white;
+}
+
+.iva-price-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 87%);
+    background-color: grey;
+    padding: 0.5rem;
+}
+
+.iva-price-container span {
+    text-align: center;
+    font-family: 'Abel', 'sans-serif';
+    color: white;
+}
+
+.total-price-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 87%);
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.total-price-container span {
+    text-align: center;
+    font-family: 'Abel', 'sans-serif';
+    color: white;
+}
+
+.button-delete button {
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgba(255, 1, 1, 0.781);
+    border: 1px solid rgba(255, 1, 1, 0.781);
+    color: white;
+    font-family: 'Abel', 'sans-serif';
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    
+}
+
+.button-pay button {
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgba(24, 109, 24, 0.842);
+    border: 1px solid rgba(24, 109, 24, 0.842);
+    color: white;
+    font-family: 'Abel', 'sans-serif';
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 0.5rem;
+    font-family: 'Abel', 'sans-serif';
+    font-weight: 600;
+}
+
+td {
+    border: 20px solid rgb(255, 255, 255);
+    padding: 0.5rem;
+    text-align: center;
+    padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: rgba(24, 109, 24, 0.842);
+    color: white;
+}
+
+.red {
+    background-color: rgba(197, 3, 3, 0.781);
+    color: white;
+}
+
+.blue {
+    background-color: rgba(0, 75, 136, 0.842);
+    color: white;
+}
